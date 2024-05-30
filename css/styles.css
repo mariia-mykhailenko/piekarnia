@@ -103,6 +103,7 @@ ul {
     border-radius: 8px;
     cursor: pointer;
     font-weight: 600;
+    font-size: 18px;
 }
 .button:hover {
     color:var(--color-brand-dark);
@@ -347,6 +348,7 @@ ul {
     margin-bottom: 16px;
 }
 
+
 .contact-section{
     padding-bottom: 96px;
 }
@@ -354,6 +356,52 @@ ul {
 .contact-container{
     display: flex;
     gap: 32px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.contact-input{
+    width: 605px;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid var(--color-secondary-dark);
+    background: var(--color-primary-light);
+    color: var(--color-secondary-dark);
+    cursor: pointer;
+    padding: 16px 42px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.contact-input:hover{
+    border: 1px solid var(--color-brand-normal);
+    color: var(--color-primary-dark);
+}
+
+.contact-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.contact-politics-text{
+    width: 240px;
+    color: var(--color-primary-dark);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.contact-politics-text .underline{
+    text-decoration-line: underline;
 }
 
 .contact-map{
@@ -377,6 +425,7 @@ ul {
 .footer-container{
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 .footer-nav, .footer-address {
@@ -389,9 +438,19 @@ ul {
     flex-grow: 1;   
 }
 
+.footer-menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex-direction: column;
+}
 .address-list, .address-info{
     flex-grow: 1;
-}               
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+} 
 
 .address-link{
     font-size: 16px;
